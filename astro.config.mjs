@@ -12,21 +12,21 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  // Markdown-Plugin konfigurieren
-  markdown: {
-    shikiConfig: {
-      theme: "one-dark-pro",
-      wrap: true,
-    },
-  },
-  // Astro-Plugins registrieren
-  integrations: [
-    tailwind({
-      config: {
-        applyBaseStyles: false,
+   // Markdown-Plugin konfigurieren
+   markdown: {
+      shikiConfig: {
+         theme: "one-dark-pro",
+         wrap: true,
       },
-    }),
-    image(),
-    mdx(),
-  ],
+   },
+   // Astro-Plugins registrieren
+   integrations: [
+      tailwind({
+         config: {
+            applyBaseStyles: false,
+         },
+      }),
+      image(),
+      mdx(),
+   ],
 });
