@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 
 // Mit interface Props können wir die Props von Astro in TypeScript definieren.
 // Hier legst du fest welche Props diese Komponente erwartet und welche Typen sie haben sollen.
@@ -27,8 +27,8 @@ const { url, title, external } = Astro.props;
          external ? (
             <Icon
                name="ph:arrow-square-out"
-               width="24"
-               height="24"
+               width={24}
+               height={24}
                class="ml-2"
             />
          ) : (

@@ -5,10 +5,11 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 
 // Astro-Plugins importieren
-// Image-Plugin für responsive Images
-import image from "@astrojs/image";
 // MDX-Plugin für Markdown + JSX
 import mdx from "@astrojs/mdx";
+
+// Import Astro Icon
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,7 +27,6 @@ export default defineConfig({
             applyBaseStyles: false,
          },
       }),
-      image(),
-      mdx(),
+      mdx(), icon(),
    ],
 });

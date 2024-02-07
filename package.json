@@ -10,9 +10,11 @@
       "astro": "astro"
    },
    "dependencies": {
-      "@astrojs/image": "^0.16.7",
       "@astrojs/mdx": "^2.1.1",
       "@astrojs/tailwind": "^5.1.0",
+      "@iconify-json/logos": "^1.1.42",
+      "@iconify-json/mdi": "^1.1.64",
+      "@iconify-json/ph": "^1.1.11",
       "@swup/a11y-plugin": "^4.5.0",
       "@swup/head-plugin": "^2.1.2",
       "@swup/scroll-plugin": "^3.3.2",
