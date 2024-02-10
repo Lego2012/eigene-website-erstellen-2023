@@ -18,9 +18,9 @@
       "@swup/a11y-plugin": "^4.5.0",
       "@swup/head-plugin": "^2.1.2",
       "@swup/scroll-plugin": "^3.3.2",
-      "astro": "^4.3.3",
+      "astro": "^4.3.5",
       "astro-icon": "^1.1.0",
-      "swup": "^4.5.2",
+      "swup": "^4.6.0",
       "tailwindcss": "^3.4.1"
    }
 }
