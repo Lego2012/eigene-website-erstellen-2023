@@ -10,17 +10,17 @@
       "astro": "astro"
    },
    "dependencies": {
-      "@astrojs/mdx": "^3.0.1",
-      "@astrojs/tailwind": "^5.1.0",
-      "@iconify-json/logos": "^1.1.42",
-      "@iconify-json/mdi": "^1.1.66",
-      "@iconify-json/ph": "^1.1.13",
+      "@astrojs/mdx": "^3.1.8",
+      "@astrojs/tailwind": "^5.1.2",
+      "@iconify-json/logos": "^1.2.3",
+      "@iconify-json/mdi": "^1.2.1",
+      "@iconify-json/ph": "^1.2.1",
       "@swup/a11y-plugin": "^5.0.0",
-      "@swup/head-plugin": "^2.2.0",
+      "@swup/head-plugin": "^2.2.1",
       "@swup/scroll-plugin": "^3.3.2",
-      "astro": "^4.9.0",
-      "astro-icon": "^1.1.0",
-      "swup": "^4.6.1",
-      "tailwindcss": "^3.4.3"
+      "astro": "^4.16.5",
+      "astro-icon": "^1.1.1",
+      "swup": "^4.8.1",
+      "tailwindcss": "^3.4.14"
    }
 }
