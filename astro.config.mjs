@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 
 // Tailwind CSS importieren
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 
 // Astro-Plugins importieren
 // MDX-Plugin für Markdown + JSX
@@ -13,6 +13,9 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
+   vite: {
+      plugins: [tailwindcss()],
+   },
    // Markdown-Plugin konfigurieren
    markdown: {
       shikiConfig: {
@@ -22,11 +25,6 @@ export default defineConfig({
    },
    // Astro-Plugins registrieren
    integrations: [
-      tailwind({
-         config: {
-            applyBaseStyles: false,
-         },
-      }),
       mdx(), icon(),
    ],
 });
