@@ -10,17 +10,17 @@
       "astro": "astro"
    },
    "dependencies": {
-      "@astrojs/mdx": "^4.0.8",
-      "@iconify-json/logos": "^1.2.4",
+      "@astrojs/mdx": "^4.3.1",
+      "@iconify-json/logos": "^1.2.5",
       "@iconify-json/mdi": "^1.2.3",
       "@iconify-json/ph": "^1.2.2",
       "@swup/a11y-plugin": "^5.0.0",
       "@swup/head-plugin": "^2.3.1",
       "@swup/scroll-plugin": "^3.3.2",
-      "@tailwindcss/vite": "^4.0.1",
-      "astro": "^5.2.1",
+      "@tailwindcss/vite": "^4.1.11",
+      "astro": "^5.12.3",
       "astro-icon": "^1.1.5",
-      "swup": "^4.8.1",
-      "tailwindcss": "^4.0.1"
+      "swup": "^4.8.2",
+      "tailwindcss": "^4.1.11"
    }
 }
